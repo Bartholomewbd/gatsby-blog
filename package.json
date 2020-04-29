@@ -28,17 +28,13 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/W3Layouts/Delog#readme",
+  "homepage": "https://brew.codes",
   "keywords": [
     "gatsby",
     "netlify cms"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/W3Layouts/Delog.git"
-  },
   "scripts": {
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
