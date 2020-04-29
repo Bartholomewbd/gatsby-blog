@@ -9,9 +9,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #424547;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #5a5e61;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -29,11 +29,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #424547;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #b4bbbf;
   --featured-text: #fff;
-  --secondary-color: #66578d;
+  --secondary-color: #aacee3;
   --background: #0A041A;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);

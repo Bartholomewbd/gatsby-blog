@@ -21,10 +21,9 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
-        {!site.siteMetadata.w3l_dom_key ? null : <meta name="w3l-domain-verification" content={site.siteMetadata.w3l_dom_key} />}
       </Helmet>
-      <HeroHeader/>
-      <h2>Blog Posts &darr;</h2>
+      <HeroHeader />
+      <h2>Posts &darr;</h2>
       <div className="grids">
         {Posts}
       </div>
@@ -39,7 +38,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-        w3l_dom_key
       }
     }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
