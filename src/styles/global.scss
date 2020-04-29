@@ -24,8 +24,6 @@ body.light {
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
-  --contact-bg: #f7f8fe;
-  --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
 }
 body.dark {
@@ -46,8 +44,6 @@ body.dark {
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
-  --contact-bg: var(--card-shadow);
-  --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
 }
 /* System Fonts as used by Medium and WordPress */
@@ -260,9 +256,7 @@ a {
   }
 }
 .form-container {
-  background-color: var(--contact-bg);
   padding: 32px;
-  border: 1px solid var(--contact-bdr);
   border-radius: 9px;
   label {
     display: block;
@@ -291,11 +285,6 @@ a {
 .two-grids {
   display: grid;
   grid-gap: 32px;
-  &.-contact {
-    .post-thumbnail {
-      min-height: 240px !important;
-    }
-  }
 }
 /* Portrait and Landscape */
 @media only screen 
