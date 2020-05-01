@@ -19,7 +19,9 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
-          <Link to="/"><img src='./assets/coffee.png' alt="coffee" style={{ width: 40 + 'px' }} /> {data.site.siteMetadata.title}</Link>
+          <Link to="/">
+            {/* <img src='./assets/coffee.png' alt="coffee" style={{ width: 40 + 'px' }} />  */}
+            {data.site.siteMetadata.title}</Link>
         </div>
         <Navigation />
       </header>
