@@ -3,7 +3,7 @@ template: BlogPost
 path: /new-years
 title: "New Years Reflection"
 date: 2019-12-31T07:12:25.364Z
-thumbnail: ''
+thumbnail: '/assets/new-years-thumb.jpg'
 ---
 
 As the year comes to an end take a pause to reflect & set goals.

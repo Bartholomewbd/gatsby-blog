@@ -3,7 +3,7 @@ template: BlogPost
 title: "React Hooks"
 path: /react-hooks
 date: 2020-04-23T07:12:25.364Z
-thumbnail: ''
+thumbnail: '/assets/ReactLogo.png'
 ---
 
 Hello!  Today my personal learning time was spent diving deeper into hooks.  Despite using hooks day to day on my projects, I have always wanted to read a bit more and grasp a better understanding of how they work and also get better at custom hooks.

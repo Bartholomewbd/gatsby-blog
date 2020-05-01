@@ -3,7 +3,7 @@ template: BlogPost
 title: "A New Start"
 path: /new-start
 date: 2020-04-22T07:12:25.364Z
-thumbnail: ''
+thumbnail: '/assets/freshstart.jpg'
 ---
 
 Hello there! We are going through some very strange and rough times.  As of today I have been WFH for about 5 and a half weeks thanks to COVID-19.  At first I was very productive.  I had a lot of free time and would dedicate a lot of it to learning and self improvement.  However, as we progressed further into this I have noticed that I have been slacking in the self progression category,  I am still WFH every day and tutoring my bootcamp students but I have spent very little time the past two weeks improving.  Speaking with a friend of mine yesterday he mentioned he had the same problem so we decided we would be doing a minimum of 25 minutes a day of software development/code related learning.  The first one to break this streak has a punishment of something related to $20 or Euros. Not sure exactly what the punishment was but just something to keep us motivated for a while :-D.  I was very excited, got up very early to get started. I woke up at 4am and began thinking about where I wanted to focus my energy over a cup of coffee. 
