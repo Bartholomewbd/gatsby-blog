@@ -98,7 +98,7 @@ module.exports = {
           delayOnRouteUpdate: 0,
         },
       },
-  }
+  },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
