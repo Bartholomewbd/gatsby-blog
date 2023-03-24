@@ -16,6 +16,13 @@ module.exports = {
     },
   },
   plugins: [{
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "G-JEGV8XHYKX",
+      head: false,
+      
+    }
+  },{
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `markdown-pages`,
